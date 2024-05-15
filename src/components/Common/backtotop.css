@@ -1,0 +1,18 @@
+.back-to-top{
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    margin: 2vw;
+    cursor: pointer;
+    transition: scale ease 0.5s;
+}
+.back-to-top:hover{
+    scale: 1.2;
+}

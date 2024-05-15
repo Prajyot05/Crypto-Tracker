@@ -1,0 +1,10 @@
+React Router DOM
+Material UI for the components
+Dribble for design inspirations
+Coingecko API for the data
+Chart JS for the graphs
+Axios to make API calls
+Framer Motion for Animations
+Deploying on Netlify
+Made it Responsive
+Local storage

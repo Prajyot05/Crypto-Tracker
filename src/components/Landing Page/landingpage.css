@@ -1,0 +1,146 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 3vw;
+}
+
+.track-crypto-heading, .real-time-heading{
+    font-size: 8vw;
+}
+
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+    transition: color ease 0.3s;
+    width: 110%;
+    margin-top: 20vh;
+}
+
+.track-crypto-heading:hover{
+    color: transparent;
+}
+
+.real-time-heading{
+    color: var(--blue);
+}
+
+.info-text{
+    font-size: 1.5vw;
+    color: var(--grey);
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 8vw;
+}
+
+.right{
+    width: 50%;
+    position: relative;
+}
+
+.iphone{
+    position: absolute;
+    z-index: 100;
+    /* min-width: 350px; */
+    width: 60%;
+    right: 0;
+}
+
+.gradient{
+    position: absolute;
+    /* min-width: 280px; */
+    top: 5vw;
+    right: 0;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1350px) {
+    .track-crypto-heading,
+    .real-time-heading {
+      font-size: 5rem;
+    }
+}
+  
+@media only screen and (max-width: 1050px) {
+    .track-crypto-heading,
+    .real-time-heading {
+        font-size: 4rem;
+    }
+
+    .gradient {
+        right: 0px;
+        top: 60px;
+        width: 200px;
+    }
+    .iphone {
+        right: 0px;
+        width: 250px;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .track-crypto-heading,
+    .real-time-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .track-crypto-heading{
+        -webkit-text-stroke-width: 1.5px;
+    }
+
+    .right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        margin-left: 10vw;
+    }
+
+    .flex-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-flex{
+        margin-left: 0;
+    }
+
+    .track-crypto-heading{
+        margin-top: 3vh;
+    }
+
+    .track-crypto-heading,
+    .real-time-heading,
+    .info-text {
+        text-align: center;
+    }
+
+    .info-text {
+        font-size: 0.8rem;
+    }
+
+    .btn-flex {
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 3vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .gradient,
+    .iphone {
+        left: 0px;
+    }
+
+    .iphone {
+        left: -30px;
+    }
+}

@@ -1,0 +1,14 @@
+.coin-page-grid{
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .coin-page-list{
+    display: none;
+  }
+
+  .coin-page-grid{
+    display: block;
+    margin-left: 10vw;
+  }
+}
