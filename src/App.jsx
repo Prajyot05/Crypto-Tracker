@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='App'>
       <ToastContainer />
-      <BrowserRouter>
+      <BrowserRouter basename="/Crypto-Tracker">
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/dashboard' element={<DashboardPage />} />
